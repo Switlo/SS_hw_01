@@ -31,7 +31,7 @@ h1 a {
 }
 
 table {
-        table-layout: auto
+        table-layout: auto /*Отзывчивая таблица с ровными колонками */
 }
 
 td {
@@ -40,10 +40,6 @@ td {
         /* Выравнивание по верхнему краю ячеек */
         margin: 0;
         width: 50%;
-}
-
-.td-left {
-        max-width: 600px;
 }
 
 p {
