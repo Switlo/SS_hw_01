@@ -30,6 +30,22 @@ h1 a {
         padding: 4px 8px;
 }
 
+table {
+        table-layout: auto
+}
+
+td {
+        padding: 5px;
+        vertical-align: top;
+        /* Выравнивание по верхнему краю ячеек */
+        margin: 0;
+        width: 50%;
+}
+
+.td-left {
+        max-width: 600px;
+}
+
 p {
         margin: 5px 0;
 }
@@ -60,15 +76,8 @@ button img {
         text-align: center;
 }
 
-td {
-        padding: 5px;
-        vertical-align: top; /* Выравнивание по верхнему краю ячеек */
-        margin: 0;
-}
 
-.td-left {
-        max-width: 600px;
-}
+
 video { /* Адаптивное видео */
         width: 100%;
         height: auto;
