@@ -49,7 +49,11 @@ body {
 .get-started-btn a {
         color: white;
 }
-        
+ 
+.get-started-btn a:hover {
+        color: white;
+}
+
 .get-started-btn:active {
         cursor: click;
         border: 3px solid black;
